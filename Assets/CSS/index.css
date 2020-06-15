@@ -1,0 +1,138 @@
+*{
+  box-sizing: border-box;
+}
+/*NavBar*/
+.topnav {
+  background-color: black;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 16px 18px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+  background-color: grey;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: black;
+  color: white;
+}
+/* Hero Background*/
+#hero-home {
+  background-image: url("https://images.unsplash.com/photo-1528164344705-47542687000d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1669&q=80");
+  background-repeat: no-repeat;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+html body {
+  height: 100vh;
+  margin: 0px;
+}
+
+.hero_header {
+  color: #ffffff;
+  text-shadow: black 3px 2px 2px;
+  text-align: center;
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  letter-spacing: 4px;
+  font-size: 100px;
+  width: 100%;
+}
+.title {
+  font-size: 50px;
+  margin: 20px;
+  padding: 7px;
+  text-align: center;
+}
+h2 {
+  color: black;
+  text-decoration: underline;
+}
+article p {
+  text-indent: 7px;
+  font-family: Gotham, sans-serif;
+  line-height: 22px;
+  padding: 15px 8px 8px;
+  margin-right: 35px;
+  margin-left: 35px;
+}
+/* text center */
+.text {
+  padding: 50px 0;
+}
+
+.text p {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 60%;
+}
+
+/*footer*/
+
+footer {
+  background-color: grey;
+
+  bottom: 0;
+  width: 100%;
+}
+.media {
+  text-decoration: none;
+  text-align: center;
+  padding-bottom: 5px;
+  padding-top: 10px;
+}
+
+.media a {
+  padding: 12px;
+}
+
+#logo-footer {
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 4px;
+  color: black;
+  text-decoration: none;
+  padding: 2px;
+}
+
+.copy {
+  text-align: center;
+  color: black;
+  margin: 0;
+  padding: 8px 0 15px 0;
+}
+
+/* Facebook */
+a.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+/*twitter*/
+a.fa-twitter {
+  background: #55acee;
+  color: black;
+}
+/*youtube*/
+a.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+/*instagram*/
+a.fa-instagram {
+  background: #125688;
+  color: white;
+}

@@ -1,0 +1,131 @@
+*{
+  box-sizing: border-box;
+}
+
+/*navbar*/
+.topnav {
+  background-color: black;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 16px 18px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+  background-color: grey;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: black;
+  color: white;
+}
+
+/* it background*/
+#herohome {
+  background-image: url("https://www.northeastern.edu/graduate/blog/wp-content/uploads/2019/11/career-in-artificial-intelligence-HERO.png");
+  background-repeat: no-repeat;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-size: cover;
+  background-position: center;
+}
+html body {
+  height: 100vh;
+  margin: 0px;
+}
+
+.hero-header {
+  color: #ffffff;
+  text-shadow: black 3px 2px 2px;
+  text-align: center;
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  letter-spacing: 4px;
+  font-size: 40px;
+  width: 100%;
+}
+
+/*footer*/
+
+footer {
+  background-color: grey;
+
+  bottom: 0;
+  width: 100%;
+}
+.media {
+  text-decoration: none;
+  text-align: center;
+  padding-bottom: 5px;
+  padding-top: 10px;
+}
+
+.media a {
+  padding: 12px;
+}
+
+#logo-footer {
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 4px;
+  color: black;
+  text-decoration: none;
+  padding: 2px;
+}
+
+.copy {
+  text-align: center;
+  color: black;
+  margin: 0;
+  padding: 8px 0 15px 0;
+}
+
+/* Facebook */
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+/*twitter*/
+.fa-twitter {
+  background: #55acee;
+  color: black;
+}
+/*youtube*/
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+/*instagram*/
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+/*Card*/
+.wrapper {
+  display: flex;
+  width:100%;
+}
+@media only screen and (max-width: 1000px) {
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+}
+.card {
+  transition: 0.3s;
+  width: 30%;
+}
+.container {
+  padding: 2px 16px;
+}

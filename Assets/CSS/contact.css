@@ -1,0 +1,148 @@
+*{
+  box-sizing: border-box;
+}
+/* NavBar*/
+.topnav {
+  background-color: black;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 16px 18px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+  background-color: grey;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: black;
+  color: white;
+}
+
+/* Hero background*/
+#herohome {
+  background-image: url("https://images.unsplash.com/photo-1462206092226-f46025ffe607?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1653&q=80");
+  background-repeat: no-repeat;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-size: cover;
+  background-position: center;
+}
+html body {
+  height: 100vh;
+  margin: 0px;
+}
+
+.hero-header {
+  color: white;
+  text-shadow: black 3px 2px 2px;
+  text-align: center;
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  letter-spacing: 4px;
+  font-size: 40px;
+  width: 100%;
+}
+/*body font size and text for contact us*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: grey;
+}
+
+.conntainer{
+  border-radius: 5px:
+    
+}
+
+/*footer*/
+
+footer {
+  background-color: grey;
+
+  bottom: 0;
+  width: 100%;
+}
+.media {
+  text-decoration: none;
+  text-align: center;
+  padding-bottom: 5px;
+  padding-top: 10px;
+}
+
+.media a {
+  padding: 12px;
+}
+
+#logo-footer {
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 4px;
+  color: black;
+  text-decoration: none;
+  padding: 2px;
+}
+
+.copy {
+  text-align: center;
+  color: black;
+  margin: 0;
+  padding: 8px 0 15px 0;
+}
+
+/* Facebook */
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+/*twitter*/
+.fa-twitter {
+  background: #55acee;
+  color: black;
+}
+/*youtube*/
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+/*instagram*/
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
